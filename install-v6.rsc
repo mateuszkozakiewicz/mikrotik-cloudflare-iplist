@@ -1,8 +1,8 @@
-# More details at https://github.com/Davie3/mikrotik-cloudflare-iplist
+# More details at https://github.com/mateuszkozakiewicz/mikrotik-cloudflare-iplist
 # Script to download the Cloudflare list
 /system script add name="d3-cloudflare-download-v6" source={
 :log info "Download Cloudflare IP list (v6)";
-/tool fetch url="https://raw.githubusercontent.com/Davie3/mikrotik-cloudflare-iplist/main/cloudflare-ips-v6.rsc" mode=https dst-path=cloudflare-ips-v6.rsc;
+/tool fetch url="https://raw.githubusercontent.com/mateuszkozakiewicz/mikrotik-cloudflare-iplist/main/cloudflare-ips-v6.rsc" mode=https dst-path=cloudflare-ips-v6.rsc;
 }
 
 # Script to replace the Cloudflare list
