@@ -1,4 +1,4 @@
-name: Update Cloudlafre IP list
+name: Update Cloudflare IP list
 
 on:
   push:
