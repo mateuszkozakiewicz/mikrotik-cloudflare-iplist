@@ -1,0 +1,11 @@
+[project]
+name = "mikrotik-cloudflare-iplist"
+version = "0.1.0"
+description = "A Python script that generates a list of Cloudflare IP addresses for use in MikroTik firewall rules."
+readme = "README.md"
+authors = [{ name = "Mateusz Kozakiewicz" }]
+requires-python = ">=3.14"
+dependencies = ["pytz>=2026.6", "requests>=2.34.2"]
+
+[tool.uv]
+package = false
